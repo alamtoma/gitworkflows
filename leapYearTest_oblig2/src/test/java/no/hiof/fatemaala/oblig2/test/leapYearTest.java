@@ -1,6 +1,4 @@
 package no.hiof.fatemaala.oblig2.test;
-
-
 import no.hiof.fatemaala.oblig2test.leapYear;
 import org.junit.jupiter.api.Test;
 
@@ -34,6 +32,7 @@ public class leapYearTest {
     @Test
     public void year_isNot_divided_by_400_but_divided_by_100_is_a_LeapYear(){
         assertEquals(false, Year.isLeap(1900));
+
     }
 
 
